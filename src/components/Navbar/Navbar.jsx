@@ -14,11 +14,12 @@ const Navbar = () => {
         <img src={images.gericht} alt="app-logo" />
       </div>
       <ul className='app__navbar-links'>
-        <li className='p_opensans'><a href="#Home">Home</a></li>
-        <li className='p_opensans'><a href="#About"></a>About</li>
-        <li className='p_opensans'><a href="#Menu"></a>Menu</li>
-        <li className='p_opensans'><a href="#Awards">Awards</a></li>
-        <li className='p_opensans'><a href="#Contact">Contact</a></li>
+        <li className='p_opensans'><a href="#home">Home</a></li>
+        <li className='p_opensans'><a href="#about"></a>About</li>
+        <li className='p_opensans'><a href="#menu"></a>Menu</li>
+        <li className='p_opensans'><a href="#awards">Awards</a></li>
+        <li className='p_opensans'><a href="#contact">Contact</a></li>
+        <li className='p_opensans'><a href="#shop">Shop</a></li>
       </ul>
       <div className='app__navbar-login'>
         <a href="#login" className='p__opensans'>Log In / Register</a>
@@ -32,11 +33,11 @@ const Navbar = () => {
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={()=>setToggleMenu(false)} />
             <ul className='app__navbar-smallscreen_links'>
-              <li className='p_opensans'><a href="#Home">Home</a></li>
-              <li className='p_opensans'><a href="#About"></a>About</li>
-              <li className='p_opensans'><a href="#Menu"></a>Menu</li>
-              <li className='p_opensans'><a href="#Awards">Awards</a></li>
-              <li className='p_opensans'><a href="#Contact">Contact</a></li>
+              <li className='p_opensans'><a href="#home">Home</a></li>
+              <li className='p_opensans'><a href="#about"></a>About</li>
+              <li className='p_opensans'><a href="#menu"></a>Menu</li>
+              <li className='p_opensans'><a href="#awards">Awards</a></li>
+              <li className='p_opensans'><a href="#contact">Contact</a></li>
             </ul>
           </div>
           )}
