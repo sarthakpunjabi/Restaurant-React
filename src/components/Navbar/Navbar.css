@@ -9,7 +9,7 @@
 
 .app__navbar-logo{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .app__navbar-smallscreen{
-    display: none;
+    display: block;
 }
 .app__navbar-smallscreen-links{
     color: aliceblue;
